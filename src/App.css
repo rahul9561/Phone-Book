@@ -1,0 +1,32 @@
+.order-list{
+  display: flex;
+ 
+  background-color: rgb(52, 79, 87);
+  color: #fff;
+  flex-direction: column;
+  
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+button{
+  padding: .5rem 2rem;
+  border: none;
+  border-radius: 9px;
+  font-size: 21px;
+  background-color: rgb(42, 42, 104);
+  color: #fff;
+  cursor: pointer;
+}
+input{
+  margin: 0 1rem;
+  padding: .5rem 2rem;
+  border: 1px solid rgb(42,42,105);
+  border-radius: 9px;
+  font-size: 21px;
+  
+  color: #3b3a3a;
+}
